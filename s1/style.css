@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: aqua;
+}
+  
+ul, li {
+    padding: 0;
+    list-style-type: square;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    column-gap: 15px;
+}
+header {
+    grid-column: span 3;
+    text-align: center;
+    border-bottom: 5px;
+    width: 100%;  
+    opacity: 1;
+    z-index: 999;
+    color: brown;
+   
+    border: none;
+   
+    
+
+
+}
